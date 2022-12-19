@@ -1,7 +1,9 @@
 import React from "react";
-import "../styles/Home.css";
 import Navbar from "../components/common/navbar/Navbar";
 import Header from "../components/home/header/Header";
+import About from "../components/home/about/About";
+import Projects from "../components/home/projects/Projects";
+import Contact from "../components/home/contact/Contact";
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Navbar />
       <Header />
       <About />
+      <Projects />
+      <Contact />
     </div>
   );
 };
