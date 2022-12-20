@@ -1,0 +1,37 @@
+.nav-container {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto 1rem auto;
+  max-width: 1400px;
+  padding: 0 1rem;
+  z-index: 2;
+}
+
+.name {
+  font-size: 18px;
+  margin: 0 1rem;
+  padding-top: 3%;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 18px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  color: #ffffff;
+}
+
+.nav-links li {
+  margin: 0 1.625rem;
+  font-weight: 600;
+}
+
+.nav-links .nav-active {
+  font-weight: 600;
+}
