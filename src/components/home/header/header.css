@@ -1,14 +1,12 @@
 .header-container {
-  color: white;
-  max-width: 990px;
-  margin: auto;
-  height: 80vh;
+  color: black;
+  height: 100vh;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  justify-content: center;
 }
 
-.header-container h1 {
+/* .header-container h1 {
   font-size: 76px;
   font-style: normal;
   font-weight: 600;
@@ -16,4 +14,26 @@
   text-align: center;
   letter-spacing: 0.01em;
   margin: 1.5rem 0;
+  color: black;
+}
+
+.header-container h2 {
+  color: black;
+} */
+
+.header-container .right {
+  width: 500px;
+  height: 500px;
+  margin-right: -7rem;
+}
+
+.header-container .left {
+  /* width: 300px;
+  height: 500px; */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1.5rem 1.5rem;
 }
