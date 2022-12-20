@@ -14,14 +14,26 @@ const Navbar = () => {
               return (
                 <li className="nav-active">
                   {link?.external ? (
-                    <a href={link.href}>{link.name}</a>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.name}
+                    </a>
                   ) : (
                     <Link to={link.href}>{link.name}</Link>
                   )}
                 </li>
               );
             }
+            return (
+              <li>
+                <Link to={link.href}>{link.name}</Link>
+              </li>
+            );
           })}
+          <li></li>
         </ul>
       </nav>
     </div>

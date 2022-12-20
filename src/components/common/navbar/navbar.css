@@ -24,12 +24,12 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  color: #ffffff;
+  color: white;
 }
 
 .nav-links li {
   margin: 0 1.625rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .nav-links .nav-active {
