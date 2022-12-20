@@ -20,11 +20,17 @@
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .nav-links ul {
   display: flex;
   list-style-type: none;
   padding: 0;
   color: white;
+  text-decoration: none;
 }
 
 .nav-links li {
