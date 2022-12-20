@@ -1,0 +1,19 @@
+.header-container {
+  color: white;
+  max-width: 990px;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-container h1 {
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: 1.5rem 0;
+}
