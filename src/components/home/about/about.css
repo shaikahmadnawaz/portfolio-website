@@ -19,3 +19,14 @@
 .right {
   flex-basis: 60%;
 }
+.right ul {
+  margin-left: 1rem;
+}
+
+.right li {
+  padding: -5rem 0;
+}
+
+.right p {
+  margin-top: 2rem;
+}
