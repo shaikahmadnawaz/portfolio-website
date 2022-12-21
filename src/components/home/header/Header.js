@@ -6,8 +6,16 @@ const Header = () => {
   return (
     <section className="header-container">
       <div className="left">
-        <h2>Hi There!</h2>
-        <h1>I'm Nawaz</h1>
+        <h1>
+          I'm Ahmad <span>Nawaz</span>
+        </h1>
+        <p>
+          I am a Full Stack Developer
+          <br /> with experience building open source projects
+        </p>
+        <a href="#" alt="resume">
+          Download Resume
+        </a>
       </div>
       <div className="right">
         <img src={Me} alt="Me" />
