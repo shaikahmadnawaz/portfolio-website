@@ -11,6 +11,11 @@ export const navLinks = [
     external: false,
   },
   {
+    name: "Skills",
+    href: "/skills",
+    external: false,
+  },
+  {
     name: "Projects",
     href: "/projects",
     external: false,
