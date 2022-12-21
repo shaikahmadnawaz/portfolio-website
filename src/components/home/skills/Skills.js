@@ -1,4 +1,5 @@
 import React from "react";
+import "./skills.css";
 import Java from "../../../assets/java.svg";
 import AWS from "../../../assets/aws.svg";
 import CSS from "../../../assets/css3.svg";
@@ -16,9 +17,12 @@ const Skills = () => {
   return (
     <section className="skills-container">
       <div>
-        <p>Skills</p>
+        <p className="heading">Skills</p>
+        <p className="sub-heading">
+          These are the technologies I've worked with
+        </p>
       </div>
-      <div>
+      <div className="skills-icons">
         <div>
           <img src={HTML} alt="html" />
           <p>HTML</p>
@@ -32,32 +36,40 @@ const Skills = () => {
           <p>JavaScript</p>
         </div>
         <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
+          <img src={Reactjs} alt="reactjs" />
+          <p>React</p>
+        </div>
+        <div>
+          <img src={Node} alt="nodejs" />
+          <p>Node.js</p>
+        </div>
+        <div>
+          <img src={Express} alt="expressjs" />
+          <p>Express.js</p>
+        </div>
+        <div>
+          <img src={Mongodb} alt="mongodb" />
+          <p>MongoDB</p>
         </div>
         <div>
           <img src={Java} alt="java" />
           <p>Java</p>
         </div>
         <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
+          <img src={Python} alt="python" />
+          <p>Python</p>
         </div>
         <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
+          <img src={Docker} alt="docker" />
+          <p>Docker</p>
         </div>
         <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
+          <img src={AWS} alt="aws" />
+          <p>AWS</p>
         </div>
         <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
-        </div>
-        <div>
-          <img src={Java} alt="java" />
-          <p>Java</p>
+          <img src={Firebase} alt="firebase" />
+          <p>Firebase</p>
         </div>
       </div>
     </section>
