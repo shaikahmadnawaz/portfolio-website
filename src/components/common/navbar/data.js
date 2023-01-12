@@ -12,12 +12,12 @@ export const navLinks = [
   },
   {
     name: "Skills",
-    href: "/skills",
+    href: "#skills",
     external: false,
   },
   {
     name: "Projects",
-    href: "/projects",
+    href: "#projects",
     external: false,
   },
   {
@@ -27,7 +27,7 @@ export const navLinks = [
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "#contact",
     external: false,
   },
 ];

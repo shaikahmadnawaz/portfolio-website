@@ -1,0 +1,22 @@
+.container {
+  padding: 50px 0;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.projects {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects img {
+  width: 30%;
+  border-radius: 10px;
+  display: block;
+}

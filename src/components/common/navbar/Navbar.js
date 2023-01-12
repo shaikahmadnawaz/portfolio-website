@@ -29,7 +29,7 @@ const Navbar = () => {
             }
             return (
               <li>
-                <Link to={link.href}>{link.name}</Link>
+                <a href={link.href}>{link.name}</a>
               </li>
             );
           })}
