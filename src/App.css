@@ -4,14 +4,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: black;
   line-height: 1.5;
   overflow-x: hidden;
   background: white;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  padding: 3rem 18rem;
+}
+/* 
+.container {
+  display: none;
+  transform: translateY(-100%) scale(0);
+  transition: all 0.4s ease-in-out;
+  background-color: white;
+} */
 
 li {
   padding-top: 3.5%;
