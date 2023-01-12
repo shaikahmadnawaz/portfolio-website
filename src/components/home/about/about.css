@@ -1,4 +1,4 @@
-.about-container {
+.container {
   color: black;
   /* height: 100vh; */
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .left img {
-  width: 80%;
+  width: 100%;
 }
 
 .right {

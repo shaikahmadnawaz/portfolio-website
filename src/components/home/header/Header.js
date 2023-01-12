@@ -4,7 +4,7 @@ import Me from "../../../assets/me.svg";
 
 const Header = () => {
   return (
-    <section className="header-container">
+    <section className="container">
       <div className="left">
         <h1>
           I'm Ahmad <span>Nawaz</span>

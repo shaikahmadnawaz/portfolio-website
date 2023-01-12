@@ -7,7 +7,9 @@ const Contact = () => {
       <div className="row">
         <div className="contact-left">
           <h1 className="sub-title">Contact Me</h1>
-          <p>shaikahmadnawaz@gmail.com</p>
+          <p>
+            <i class="fas fa-envelope"></i>shaikahmadnawaz@gmail.com
+          </p>
           <div className="social-icons">
             <a href="#" class="icon">
               <i class="fab fa-github"></i>
