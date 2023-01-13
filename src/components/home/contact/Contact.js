@@ -23,6 +23,12 @@ const Contact = () => {
             <a href="#" class="icon">
               <i class="fab fa-instagram"></i>
             </a>
+            {/* <a href="" download class="main-btn">
+              <span class="btn-text">Download Resume</span>
+              <span class="btn-icon">
+                <i class="fas fa-download"></i>
+              </span>
+            </a> */}
           </div>
         </div>
         <div className="contact-right">
