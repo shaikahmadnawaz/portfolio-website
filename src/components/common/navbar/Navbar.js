@@ -1,39 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { navLinks } from "./data";
+import Logo from "../../../assets/logo.png";
+// import { navLinks } from "./data";
 
 const Navbar = () => {
   return (
-    <div className="nav-container">
-      <div className="name">Nawaz</div>
-      <nav className="nav-links">
-        <ul>
-          {navLinks.map((link) => {
-            if (link.active) {
-              return (
-                <li className="nav-active">
-                  {link?.external ? (
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {link.name}
-                    </a>
-                  ) : (
-                    <Link to={link.href}>{link.name}</Link>
-                  )}
-                </li>
-              );
-            }
-            return (
-              <li>
-                <a href={link.href}>{link.name}</a>
-              </li>
-            );
-          })}
-          <li></li>
+    <div className="navbar">
+      <nav className="container">
+        <img src={Logo} className="logo" />
+        <ul className="nav-items">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <a href="https://shaikahmadnawaz.hashnode.dev/">Blogs</a>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </div>

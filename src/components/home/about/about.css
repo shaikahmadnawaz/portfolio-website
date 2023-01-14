@@ -1,12 +1,12 @@
-.container {
+/* .container {
   color: black;
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1px;
   margin: 5rem 5rem;
-}
+} */
 
 .left {
   flex-basis: 35%;
