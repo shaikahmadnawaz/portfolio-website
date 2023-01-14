@@ -7,10 +7,8 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="left-header">
-          <h1 className="name">
-            Hello, <br />
-            I'm <span>Shaik Ahmad Nawaz</span>
-          </h1>
+          <h2 className="intro">Hello, I'm</h2>
+          <h1 className="name">Shaik Ahmad Nawaz</h1>
           <p>
             I'm a Web Developer, I love to create beautiful and functional
             websites.

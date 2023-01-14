@@ -8,12 +8,17 @@
   margin: 5rem 5rem;
 } */
 
+.about .container {
+  display: flex;
+  height: 100vh;
+}
+
 .left {
   flex-basis: 35%;
 }
 
 .left img {
-  width: 100%;
+  width: 250px;
 }
 
 .right {
