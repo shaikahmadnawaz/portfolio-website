@@ -18,7 +18,7 @@
 header .container {
   display: flex;
   /* justify-content: space-evenly; */
-  height: 100vh;
+  /* height: 100vh; */
   /* grid-template-columns: repeat(2, 1fr); */
   /* min-height: 100vh; */
   overflow: hidden;
@@ -29,7 +29,7 @@ header .container {
   display: flex;
   /* align-items: center; */
   justify-content: center;
-  margin: 75px 0;
+  margin: 30px 0;
   padding: 100px 25px;
   height: 50%;
   flex-direction: column;
