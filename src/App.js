@@ -1,4 +1,4 @@
-import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "./components";
 // import { Routes, Route } from "react-router-dom";
 
@@ -9,10 +9,12 @@ import { Navbar } from "./components";
 // import Contact from "./components/home/contact/Contact";
 // import Footer from "./components/common/footer/Footer";
 // import Header from "./components/home/header/Header";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <GlobalStyle />
       <Navbar />
       {/* <Navbar />
       <Routes>
@@ -23,7 +25,7 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer /> */}
-    </div>
+    </BrowserRouter>
   );
 }
 
