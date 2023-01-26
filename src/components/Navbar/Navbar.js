@@ -32,27 +32,27 @@ const Navbar = () => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/services" onClick={closeMobileMenu}>
+                <NavLinks to="/about" onClick={closeMobileMenu}>
                   About
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
+                <NavLinks to="/skills" onClick={closeMobileMenu}>
                   Skills
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
+                <NavLinks to="/projects" onClick={closeMobileMenu}>
                   Projects
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
+                <NavLinks to="/blogs" onClick={closeMobileMenu}>
                   Blogs
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/products" onClick={closeMobileMenu}>
+                <NavLinks to="/contact" onClick={closeMobileMenu}>
                   Contact
                 </NavLinks>
               </NavItem>

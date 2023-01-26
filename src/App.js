@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "./components";
 // import { Routes, Route } from "react-router-dom";
 
@@ -10,21 +10,16 @@ import { Navbar } from "./components";
 // import Footer from "./components/common/footer/Footer";
 // import Header from "./components/home/header/Header";
 import GlobalStyle from "./globalStyles";
+import Home from "./HomePage/Home";
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
       <Navbar />
-      {/* <Navbar />
       <Routes>
-        <Route exact path="/" element={<Header />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/skills" element={<Skills />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route path="/" exact element={<Home />} />
       </Routes>
-      <Footer /> */}
     </BrowserRouter>
   );
 }
